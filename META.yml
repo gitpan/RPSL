@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name:                RPSL
+version:             0.26
+abstract:            Router Policy Specification Language
+license:             ~
+author:              
+    - Luis Motta Campos <champs@>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Test::Pod:                     
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
