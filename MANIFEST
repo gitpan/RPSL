@@ -1,8 +1,9 @@
+Build.PL
 Changes
-lib/RPSL.pm
-Makefile.PL
 MANIFEST			This list of files
 README
-t/pod.t
+lib/RPSL.pm
 t/RPSL.t
-META.yml                                 Module meta-data (added by MakeMaker)
+t/pod.t
+Makefile.PL
+META.yml

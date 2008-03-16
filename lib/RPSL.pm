@@ -2,10 +2,11 @@ package RPSL;
 use strict;
 use warnings;
 
-our $VERSION = do { q$Revision: 26 $ =~ m{(\d+)}; $1 / 100; };
+our $VERSION = do { q$Revision: 27 $ =~ m{(\d+)}; $1 / 100; };
 
 1;
 __END__
+
 =head1 NAME
 
 RPSL - Router Policy Specification Language
@@ -42,7 +43,13 @@ allow people to write programs able to read and write proper RPSL.
 
 =head1 SEE ALSO
 
-RFC 2622, the RPSL specification: L<http://www.ietf.org/rfc/rfc2622.txt>.
+RFC 2622, the RPSL specification: L<http://tools.ietf.org/html/rfc2622>.
+
+RFC 2650, a tutorial on how to use RPSL in the "Real World":
+L<http://tools.ietf.org/html/rfc2650>.
+
+RFC 4012, the new set of simple extensions to the RPSL language introduced in
+2005: L<http://tools.ietf.org/html/rfc4012>.
 
 L<RPSL::Parser>, a parser able to transform RPSL text into a Perl data
 structrure.
